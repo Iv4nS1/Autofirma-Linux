@@ -118,9 +118,11 @@ Y comprueba que en el archivo `~/.config/mimeapps.list` aparece:
 x-scheme-handler/afirma=autofirma.desktop
 ```
 ### Integración con Google Chrome
-Con los pasos que hemos realizado tendría que funcionar todo perfectamente con google Chrome y derivados.
+Con los pasos que hemos realizado tendría que funcionar todo perfectamente con google Chrome version 146.
 
 ### Integración con Firefox
+La versión de Firefox usada es la última en este momento versión 149 en wayland, lo cual nos da algunos problemas extra que tenemos que solventar.
+
 Para firmar en webs, Autofirma debe comunicarse con el navegador mediante un certificado raíz.
 
 1. Abre Firefox y ve a `Ajustes` -> `Privacidad y Seguridad`.
@@ -242,3 +244,8 @@ Así cualquier persona con Fedora + Firefox + Wayland podrá reproducirlo sin ho
 
 ## Test Final
 Para confirmar que todo funciona, visita la [Página de prueba de la Administración](https://www.sededgsfp.gob.es/es/Paginas/TestAutofirma.aspx).
+
+## Direcciones de interés
+
+- [wiki autofirma](https://github.com/ctt-gob-es/clienteafirma/wiki/)
+- [Test de firma más completos](https://valide.redsara.es/firmaMovil/)
