@@ -7,7 +7,7 @@ El uso de certificados digitales en Linux puede ser un desafío, especialmente e
 Este repositorio se compone de dos partes principales:
 
 1. [Configuración técnica de AutoFirma en navegadores (Firefox / Google Chrome)](CONFIG-AUTOFIRMA.md)
-2. [Guía para generar y estampar una firma visible profesional](firma.md)
+2. [Guía para generar y estampar una firma visible profesional](Firma-personal/firma.md)
 
 **Requisitos Generales:**
 * Una distribución Linux (guía centrada en Fedora/Red Hat, pero adaptable a Ubuntu/Debian).
